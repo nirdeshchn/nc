@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+    font-size: larger;
+    /* background-color:#7289da; */
+}
+
+
+/* Header styling */
+h1 {
+    color:whitesmoke;
+  }
+
+
+
+/* Navigation bar */
+
+  nav{
+    background-color: #333;
+    top: 0;
+    padding: 20px;
+    position: sticky;
+    overflow: hidden;
+    
+  }
+    
+  nav a{
+    color: whitesmoke;
+    display: block;
+    text-decoration: none;
+    padding: 12px 20px;
+    float: left;
+
+    padding-left: 30%;
+  }
+  
+  
+
+  /* Content styling */
+
+section{
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  /* height: 80vh; */
+}
+
+
+section img,section video {
+  padding: 0px 2%;
+}
+
+
+section img{
+    box-shadow: 0 10px 10px rgb(17, 143, 158);
+}
+section video{
+    box-shadow: 0 10px 10px rgb(17, 143, 158);
+}
+
+
+
+
+/* Pseudo selector */
+section:nth-child(even){
+  background-color:rgba(17, 144, 158, 0.442);
+}
+section:nth-child(odd){
+  background-color:rgba(173, 216, 230, 0.962);
+}
+  
+
+  h2 {
+    color: whitesmoke;
+  }
+
+footer{
+  padding-top: 40px;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0px;
+  background-color: #333;
+}
+
+
+
+
+div a{
+  color: whitesmoke;
+
+}
+
+ div.handle{
+
+ }
+
+ div.terms{
+  margin-top: 2%;
+}
